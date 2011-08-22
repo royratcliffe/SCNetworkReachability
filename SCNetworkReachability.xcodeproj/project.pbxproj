@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78C9F26714029A05000F99CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9F26614029A05000F99CC /* UIKit.framework */; };
+		78C9F26914029A05000F99CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9F26814029A05000F99CC /* Foundation.framework */; };
+		78C9F26B14029A05000F99CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9F26A14029A05000F99CC /* CoreGraphics.framework */; };
+		78C9F27114029A05000F99CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78C9F26F14029A05000F99CC /* InfoPlist.strings */; };
+		78C9F27314029A05000F99CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C9F27214029A05000F99CC /* main.m */; };
+		78C9F27714029A05000F99CC /* SCNetworkReachabilityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C9F27614029A05000F99CC /* SCNetworkReachabilityAppDelegate.m */; };
+		78C9F27A14029A05000F99CC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78C9F27814029A05000F99CC /* MainWindow.xib */; };
+		78C9F27D14029A05000F99CC /* SCNetworkReachabilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C9F27C14029A05000F99CC /* SCNetworkReachabilityViewController.m */; };
+		78C9F28014029A05000F99CC /* SCNetworkReachabilityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78C9F27E14029A05000F99CC /* SCNetworkReachabilityViewController.xib */; };
+		78C9F28814029A05000F99CC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9F28714029A05000F99CC /* SenTestingKit.framework */; };
+		78C9F28914029A05000F99CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9F26614029A05000F99CC /* UIKit.framework */; };
+		78C9F28A14029A05000F99CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9F26814029A05000F99CC /* Foundation.framework */; };
+		78C9F28B14029A05000F99CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9F26A14029A05000F99CC /* CoreGraphics.framework */; };
+		78C9F29314029A05000F99CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78C9F29114029A05000F99CC /* InfoPlist.strings */; };
+		78C9F29514029A05000F99CC /* SCNetworkReachabilityTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 78C9F29414029A05000F99CC /* SCNetworkReachabilityTests.h */; };
+		78C9F29714029A05000F99CC /* SCNetworkReachabilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C9F29614029A05000F99CC /* SCNetworkReachabilityTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78C9F28C14029A05000F99CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C9F25914029A05000F99CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78C9F26114029A05000F99CC;
+			remoteInfo = SCNetworkReachability;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78C9F26214029A05000F99CC /* SCNetworkReachability.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCNetworkReachability.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C9F26614029A05000F99CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78C9F26814029A05000F99CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78C9F26A14029A05000F99CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78C9F26E14029A05000F99CC /* SCNetworkReachability-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCNetworkReachability-Info.plist"; sourceTree = "<group>"; };
+		78C9F27014029A05000F99CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78C9F27214029A05000F99CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78C9F27414029A05000F99CC /* SCNetworkReachability-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCNetworkReachability-Prefix.pch"; sourceTree = "<group>"; };
+		78C9F27514029A05000F99CC /* SCNetworkReachabilityAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNetworkReachabilityAppDelegate.h; sourceTree = "<group>"; };
+		78C9F27614029A05000F99CC /* SCNetworkReachabilityAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNetworkReachabilityAppDelegate.m; sourceTree = "<group>"; };
+		78C9F27914029A05000F99CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		78C9F27B14029A05000F99CC /* SCNetworkReachabilityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNetworkReachabilityViewController.h; sourceTree = "<group>"; };
+		78C9F27C14029A05000F99CC /* SCNetworkReachabilityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNetworkReachabilityViewController.m; sourceTree = "<group>"; };
+		78C9F27F14029A05000F99CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SCNetworkReachabilityViewController.xib; sourceTree = "<group>"; };
+		78C9F28614029A05000F99CC /* SCNetworkReachabilityTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCNetworkReachabilityTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C9F28714029A05000F99CC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		78C9F29014029A05000F99CC /* SCNetworkReachabilityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCNetworkReachabilityTests-Info.plist"; sourceTree = "<group>"; };
+		78C9F29214029A05000F99CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78C9F29414029A05000F99CC /* SCNetworkReachabilityTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNetworkReachabilityTests.h; sourceTree = "<group>"; };
+		78C9F29614029A05000F99CC /* SCNetworkReachabilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNetworkReachabilityTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78C9F25F14029A05000F99CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C9F26714029A05000F99CC /* UIKit.framework in Frameworks */,
+				78C9F26914029A05000F99CC /* Foundation.framework in Frameworks */,
+				78C9F26B14029A05000F99CC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C9F28214029A05000F99CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C9F28814029A05000F99CC /* SenTestingKit.framework in Frameworks */,
+				78C9F28914029A05000F99CC /* UIKit.framework in Frameworks */,
+				78C9F28A14029A05000F99CC /* Foundation.framework in Frameworks */,
+				78C9F28B14029A05000F99CC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78C9F25714029A05000F99CC = {
+			isa = PBXGroup;
+			children = (
+				78C9F26C14029A05000F99CC /* SCNetworkReachability */,
+				78C9F28E14029A05000F99CC /* SCNetworkReachabilityTests */,
+				78C9F26514029A05000F99CC /* Frameworks */,
+				78C9F26314029A05000F99CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78C9F26314029A05000F99CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78C9F26214029A05000F99CC /* SCNetworkReachability.app */,
+				78C9F28614029A05000F99CC /* SCNetworkReachabilityTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78C9F26514029A05000F99CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78C9F26614029A05000F99CC /* UIKit.framework */,
+				78C9F26814029A05000F99CC /* Foundation.framework */,
+				78C9F26A14029A05000F99CC /* CoreGraphics.framework */,
+				78C9F28714029A05000F99CC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78C9F26C14029A05000F99CC /* SCNetworkReachability */ = {
+			isa = PBXGroup;
+			children = (
+				78C9F27514029A05000F99CC /* SCNetworkReachabilityAppDelegate.h */,
+				78C9F27614029A05000F99CC /* SCNetworkReachabilityAppDelegate.m */,
+				78C9F27814029A05000F99CC /* MainWindow.xib */,
+				78C9F27B14029A05000F99CC /* SCNetworkReachabilityViewController.h */,
+				78C9F27C14029A05000F99CC /* SCNetworkReachabilityViewController.m */,
+				78C9F27E14029A05000F99CC /* SCNetworkReachabilityViewController.xib */,
+				78C9F26D14029A05000F99CC /* Supporting Files */,
+			);
+			path = SCNetworkReachability;
+			sourceTree = "<group>";
+		};
+		78C9F26D14029A05000F99CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78C9F26E14029A05000F99CC /* SCNetworkReachability-Info.plist */,
+				78C9F26F14029A05000F99CC /* InfoPlist.strings */,
+				78C9F27214029A05000F99CC /* main.m */,
+				78C9F27414029A05000F99CC /* SCNetworkReachability-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78C9F28E14029A05000F99CC /* SCNetworkReachabilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				78C9F29414029A05000F99CC /* SCNetworkReachabilityTests.h */,
+				78C9F29614029A05000F99CC /* SCNetworkReachabilityTests.m */,
+				78C9F28F14029A05000F99CC /* Supporting Files */,
+			);
+			path = SCNetworkReachabilityTests;
+			sourceTree = "<group>";
+		};
+		78C9F28F14029A05000F99CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78C9F29014029A05000F99CC /* SCNetworkReachabilityTests-Info.plist */,
+				78C9F29114029A05000F99CC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78C9F26114029A05000F99CC /* SCNetworkReachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C9F29A14029A05000F99CC /* Build configuration list for PBXNativeTarget "SCNetworkReachability" */;
+			buildPhases = (
+				78C9F25E14029A05000F99CC /* Sources */,
+				78C9F25F14029A05000F99CC /* Frameworks */,
+				78C9F26014029A05000F99CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCNetworkReachability;
+			productName = SCNetworkReachability;
+			productReference = 78C9F26214029A05000F99CC /* SCNetworkReachability.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78C9F28514029A05000F99CC /* SCNetworkReachabilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C9F29D14029A05000F99CC /* Build configuration list for PBXNativeTarget "SCNetworkReachabilityTests" */;
+			buildPhases = (
+				78C9F28114029A05000F99CC /* Sources */,
+				78C9F28214029A05000F99CC /* Frameworks */,
+				78C9F28314029A05000F99CC /* Resources */,
+				78C9F28414029A05000F99CC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78C9F28D14029A05000F99CC /* PBXTargetDependency */,
+			);
+			name = SCNetworkReachabilityTests;
+			productName = SCNetworkReachabilityTests;
+			productReference = 78C9F28614029A05000F99CC /* SCNetworkReachabilityTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78C9F25914029A05000F99CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Pioneering Software, United Kingdom";
+			};
+			buildConfigurationList = 78C9F25C14029A05000F99CC /* Build configuration list for PBXProject "SCNetworkReachability" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 78C9F25714029A05000F99CC;
+			productRefGroup = 78C9F26314029A05000F99CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78C9F26114029A05000F99CC /* SCNetworkReachability */,
+				78C9F28514029A05000F99CC /* SCNetworkReachabilityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78C9F26014029A05000F99CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C9F27114029A05000F99CC /* InfoPlist.strings in Resources */,
+				78C9F27A14029A05000F99CC /* MainWindow.xib in Resources */,
+				78C9F28014029A05000F99CC /* SCNetworkReachabilityViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C9F28314029A05000F99CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C9F29314029A05000F99CC /* InfoPlist.strings in Resources */,
+				78C9F29514029A05000F99CC /* SCNetworkReachabilityTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78C9F28414029A05000F99CC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78C9F25E14029A05000F99CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C9F27314029A05000F99CC /* main.m in Sources */,
+				78C9F27714029A05000F99CC /* SCNetworkReachabilityAppDelegate.m in Sources */,
+				78C9F27D14029A05000F99CC /* SCNetworkReachabilityViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C9F28114029A05000F99CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C9F29714029A05000F99CC /* SCNetworkReachabilityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78C9F28D14029A05000F99CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78C9F26114029A05000F99CC /* SCNetworkReachability */;
+			targetProxy = 78C9F28C14029A05000F99CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78C9F26F14029A05000F99CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78C9F27014029A05000F99CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78C9F27814029A05000F99CC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78C9F27914029A05000F99CC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		78C9F27E14029A05000F99CC /* SCNetworkReachabilityViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78C9F27F14029A05000F99CC /* en */,
+			);
+			name = SCNetworkReachabilityViewController.xib;
+			sourceTree = "<group>";
+		};
+		78C9F29114029A05000F99CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78C9F29214029A05000F99CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78C9F29814029A05000F99CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78C9F29914029A05000F99CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78C9F29B14029A05000F99CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCNetworkReachability/SCNetworkReachability-Prefix.pch";
+				INFOPLIST_FILE = "SCNetworkReachability/SCNetworkReachability-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		78C9F29C14029A05000F99CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCNetworkReachability/SCNetworkReachability-Prefix.pch";
+				INFOPLIST_FILE = "SCNetworkReachability/SCNetworkReachability-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		78C9F29E14029A05000F99CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SCNetworkReachability.app/SCNetworkReachability";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCNetworkReachability/SCNetworkReachability-Prefix.pch";
+				INFOPLIST_FILE = "SCNetworkReachabilityTests/SCNetworkReachabilityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		78C9F29F14029A05000F99CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SCNetworkReachability.app/SCNetworkReachability";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCNetworkReachability/SCNetworkReachability-Prefix.pch";
+				INFOPLIST_FILE = "SCNetworkReachabilityTests/SCNetworkReachabilityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78C9F25C14029A05000F99CC /* Build configuration list for PBXProject "SCNetworkReachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C9F29814029A05000F99CC /* Debug */,
+				78C9F29914029A05000F99CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C9F29A14029A05000F99CC /* Build configuration list for PBXNativeTarget "SCNetworkReachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C9F29B14029A05000F99CC /* Debug */,
+				78C9F29C14029A05000F99CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78C9F29D14029A05000F99CC /* Build configuration list for PBXNativeTarget "SCNetworkReachabilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C9F29E14029A05000F99CC /* Debug */,
+				78C9F29F14029A05000F99CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78C9F25914029A05000F99CC /* Project object */;
+}
