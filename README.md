@@ -6,7 +6,7 @@ This repository contains an iOS sample application demonstrating how to use [SCN
 
 Using asynchronous notifications only, the application presents the status of three reachable networks:
 
-1. by name, specifically [Apple](www.apple.com),
+1. by name, specifically [Apple](http://www.apple.com),
 2. the Internet and
 3. the local-link wi-fi network.
 
