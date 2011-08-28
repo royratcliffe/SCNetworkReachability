@@ -1,0 +1,3 @@
+[submodule "SCNetworkReachabilityKit"]
+	path = SCNetworkReachabilityKit
+	url = git://github.com/royratcliffe/SCNetworkReachabilityKit.git

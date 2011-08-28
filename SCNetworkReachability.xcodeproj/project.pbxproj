@@ -26,8 +26,8 @@
 		78C9F29314029A05000F99CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78C9F29114029A05000F99CC /* InfoPlist.strings */; };
 		78C9F29514029A05000F99CC /* SCNetworkReachabilityTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 78C9F29414029A05000F99CC /* SCNetworkReachabilityTests.h */; };
 		78C9F29714029A05000F99CC /* SCNetworkReachabilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C9F29614029A05000F99CC /* SCNetworkReachabilityTests.m */; };
-		78C9F2EB14029EAC000F99CC /* libSCNetworkReachabilityKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9F2E614029D82000F99CC /* libSCNetworkReachabilityKit.a */; };
 		78C9F2ED1402A272000F99CC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9F2EC1402A272000F99CC /* SystemConfiguration.framework */; };
+		78FC5884140AAA2900366F6B /* libSCNetworkReachabilityKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FC587F140AA9B500366F6B /* libSCNetworkReachabilityKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,35 +38,35 @@
 			remoteGlobalIDString = 78C9F26114029A05000F99CC;
 			remoteInfo = SCNetworkReachability;
 		};
-		78C9F2E114029D82000F99CC /* PBXContainerItemProxy */ = {
+		78FC587A140AA9B500366F6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78C9F2D714029D82000F99CC /* SCNetworkReachabilityKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 78A39FA513F94C9E00A856E2;
 			remoteInfo = SCNetworkReachabilityKit;
 		};
-		78C9F2E314029D82000F99CC /* PBXContainerItemProxy */ = {
+		78FC587C140AA9B500366F6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78C9F2D714029D82000F99CC /* SCNetworkReachabilityKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 78A39FBD13F94C9E00A856E2;
 			remoteInfo = SCNetworkReachabilityKitTests;
 		};
-		78C9F2E514029D82000F99CC /* PBXContainerItemProxy */ = {
+		78FC587E140AA9B500366F6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78C9F2D714029D82000F99CC /* SCNetworkReachabilityKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 78C9F2A414029AFD000F99CC;
 			remoteInfo = SCNetworkReachability;
 		};
-		78C9F2E714029D82000F99CC /* PBXContainerItemProxy */ = {
+		78FC5880140AA9B500366F6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78C9F2D714029D82000F99CC /* SCNetworkReachabilityKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 78C9F2B214029AFD000F99CC;
 			remoteInfo = SCNetworkReachabilityTests;
 		};
-		78C9F2E914029EA2000F99CC /* PBXContainerItemProxy */ = {
+		78FC5882140AAA1D00366F6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78C9F2D714029D82000F99CC /* SCNetworkReachabilityKit.xcodeproj */;
 			proxyType = 1;
@@ -99,7 +99,7 @@
 		78C9F29214029A05000F99CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78C9F29414029A05000F99CC /* SCNetworkReachabilityTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNetworkReachabilityTests.h; sourceTree = "<group>"; };
 		78C9F29614029A05000F99CC /* SCNetworkReachabilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNetworkReachabilityTests.m; sourceTree = "<group>"; };
-		78C9F2D714029D82000F99CC /* SCNetworkReachabilityKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SCNetworkReachabilityKit.xcodeproj; path = ../SCNetworkReachabilityKit/SCNetworkReachabilityKit.xcodeproj; sourceTree = "<group>"; };
+		78C9F2D714029D82000F99CC /* SCNetworkReachabilityKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SCNetworkReachabilityKit.xcodeproj; path = SCNetworkReachabilityKit/SCNetworkReachabilityKit.xcodeproj; sourceTree = "<group>"; };
 		78C9F2EC1402A272000F99CC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -108,8 +108,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78FC5884140AAA2900366F6B /* libSCNetworkReachabilityKit.a in Frameworks */,
 				78C9F2ED1402A272000F99CC /* SystemConfiguration.framework in Frameworks */,
-				78C9F2EB14029EAC000F99CC /* libSCNetworkReachabilityKit.a in Frameworks */,
 				78C9F26714029A05000F99CC /* UIKit.framework in Frameworks */,
 				78C9F26914029A05000F99CC /* Foundation.framework in Frameworks */,
 				78C9F26B14029A05000F99CC /* CoreGraphics.framework in Frameworks */,
@@ -209,13 +209,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		78C9F2D814029D82000F99CC /* Products */ = {
+		78FC5874140AA9B500366F6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				78C9F2E214029D82000F99CC /* SCNetworkReachabilityKit.framework */,
-				78C9F2E414029D82000F99CC /* SCNetworkReachabilityKitTests.octest */,
-				78C9F2E614029D82000F99CC /* libSCNetworkReachabilityKit.a */,
-				78C9F2E814029D82000F99CC /* SCNetworkReachabilityTests.octest */,
+				78FC587B140AA9B500366F6B /* SCNetworkReachabilityKit.framework */,
+				78FC587D140AA9B500366F6B /* SCNetworkReachabilityKitTests.octest */,
+				78FC587F140AA9B500366F6B /* libSCNetworkReachabilityKit.a */,
+				78FC5881140AA9B500366F6B /* SCNetworkReachabilityTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -234,7 +234,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				78C9F2EA14029EA2000F99CC /* PBXTargetDependency */,
+				78FC5883140AAA1D00366F6B /* PBXTargetDependency */,
 			);
 			name = SCNetworkReachability;
 			productName = SCNetworkReachability;
@@ -280,7 +280,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 78C9F2D814029D82000F99CC /* Products */;
+					ProductGroup = 78FC5874140AA9B500366F6B /* Products */;
 					ProjectRef = 78C9F2D714029D82000F99CC /* SCNetworkReachabilityKit.xcodeproj */;
 				},
 			);
@@ -293,32 +293,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		78C9F2E214029D82000F99CC /* SCNetworkReachabilityKit.framework */ = {
+		78FC587B140AA9B500366F6B /* SCNetworkReachabilityKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SCNetworkReachabilityKit.framework;
-			remoteRef = 78C9F2E114029D82000F99CC /* PBXContainerItemProxy */;
+			remoteRef = 78FC587A140AA9B500366F6B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		78C9F2E414029D82000F99CC /* SCNetworkReachabilityKitTests.octest */ = {
+		78FC587D140AA9B500366F6B /* SCNetworkReachabilityKitTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = SCNetworkReachabilityKitTests.octest;
-			remoteRef = 78C9F2E314029D82000F99CC /* PBXContainerItemProxy */;
+			remoteRef = 78FC587C140AA9B500366F6B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		78C9F2E614029D82000F99CC /* libSCNetworkReachabilityKit.a */ = {
+		78FC587F140AA9B500366F6B /* libSCNetworkReachabilityKit.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libSCNetworkReachabilityKit.a;
-			remoteRef = 78C9F2E514029D82000F99CC /* PBXContainerItemProxy */;
+			remoteRef = 78FC587E140AA9B500366F6B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		78C9F2E814029D82000F99CC /* SCNetworkReachabilityTests.octest */ = {
+		78FC5881140AA9B500366F6B /* SCNetworkReachabilityTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = SCNetworkReachabilityTests.octest;
-			remoteRef = 78C9F2E714029D82000F99CC /* PBXContainerItemProxy */;
+			remoteRef = 78FC5880140AA9B500366F6B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -391,10 +391,10 @@
 			target = 78C9F26114029A05000F99CC /* SCNetworkReachability */;
 			targetProxy = 78C9F28C14029A05000F99CC /* PBXContainerItemProxy */;
 		};
-		78C9F2EA14029EA2000F99CC /* PBXTargetDependency */ = {
+		78FC5883140AAA1D00366F6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SCNetworkReachability;
-			targetProxy = 78C9F2E914029EA2000F99CC /* PBXContainerItemProxy */;
+			targetProxy = 78FC5882140AAA1D00366F6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
