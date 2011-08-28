@@ -133,7 +133,6 @@
 		78C9F25714029A05000F99CC = {
 			isa = PBXGroup;
 			children = (
-				78C9F2EC1402A272000F99CC /* SystemConfiguration.framework */,
 				78C9F2D714029D82000F99CC /* SCNetworkReachabilityKit.xcodeproj */,
 				78C9F26C14029A05000F99CC /* SCNetworkReachability */,
 				78C9F28E14029A05000F99CC /* SCNetworkReachabilityTests */,
@@ -158,6 +157,7 @@
 				78C9F26814029A05000F99CC /* Foundation.framework */,
 				78C9F26A14029A05000F99CC /* CoreGraphics.framework */,
 				78C9F28714029A05000F99CC /* SenTestingKit.framework */,
+				78C9F2EC1402A272000F99CC /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
