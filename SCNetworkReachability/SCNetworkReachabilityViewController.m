@@ -157,7 +157,10 @@
 	statusField.text = statusString;
 	flagsLabel.text = stringFromFlags;
 	
-	// Name reachability updates the summary label. Naughty but nice.
+	// Name reachability updates the summary label. Naughty but nice. Update the
+	// summary whenever “name” reachability changes. Hide the summary if the
+	// WWAN is unreachable, i.e. no cellular data. Otherwise report as available
+	// or active according to whether reachability requires connection.
 	if (netReach == nameReach)
 	{
 		NSString *summaryString;
