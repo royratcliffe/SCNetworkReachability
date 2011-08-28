@@ -10,6 +10,14 @@ Using asynchronous notifications only, the application presents the status of th
 2. the Internet and
 3. the local-link wi-fi network.
 
+## How to Build the Sample
+
+Clone the repository in the usual way. It incorporates the SCNetworkReachabilityKit as a Git sub-module however. Hence you also need to initialise and update the submodule. From your local repository type:
+
+	git submodule update --init
+
+Git will clone the appropriate repository as a submodule. You can now open the project using Xcode, build and run. Don't forget to set up the correct scheme: SCNetworkReachability » iPhone Simulator or iOS Device. iPad works too.
+
 ## Screenshots
 
 The following screenshots show you what the sample app looks like under different connectivity test conditions.
