@@ -10,6 +10,7 @@
 		78888D4B140A1FBE00BF83F0 /* stop-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 78888D4A140A1FBE00BF83F0 /* stop-32.png */; };
 		78888D4D140A1FC900BF83F0 /* WWAN5.png in Resources */ = {isa = PBXBuildFile; fileRef = 78888D4C140A1FC900BF83F0 /* WWAN5.png */; };
 		78888D4F140A1FD100BF83F0 /* Airport.png in Resources */ = {isa = PBXBuildFile; fileRef = 78888D4E140A1FD100BF83F0 /* Airport.png */; };
+		78A3EE551C7F806B005CFAA0 /* SCNetworkReachabilityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FC587B140AA9B500366F6B /* SCNetworkReachabilityKit.framework */; };
 		78C9F26714029A05000F99CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9F26614029A05000F99CC /* UIKit.framework */; };
 		78C9F26914029A05000F99CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9F26814029A05000F99CC /* Foundation.framework */; };
 		78C9F26B14029A05000F99CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9F26A14029A05000F99CC /* CoreGraphics.framework */; };
@@ -24,10 +25,7 @@
 		78C9F28A14029A05000F99CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9F26814029A05000F99CC /* Foundation.framework */; };
 		78C9F28B14029A05000F99CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9F26A14029A05000F99CC /* CoreGraphics.framework */; };
 		78C9F29314029A05000F99CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78C9F29114029A05000F99CC /* InfoPlist.strings */; };
-		78C9F29514029A05000F99CC /* SCNetworkReachabilityTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 78C9F29414029A05000F99CC /* SCNetworkReachabilityTests.h */; };
-		78C9F29714029A05000F99CC /* SCNetworkReachabilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C9F29614029A05000F99CC /* SCNetworkReachabilityTests.m */; };
 		78C9F2ED1402A272000F99CC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9F2EC1402A272000F99CC /* SystemConfiguration.framework */; };
-		78FC5884140AAA2900366F6B /* libSCNetworkReachabilityKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FC587F140AA9B500366F6B /* libSCNetworkReachabilityKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,27 +49,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 78A39FBD13F94C9E00A856E2;
 			remoteInfo = SCNetworkReachabilityKitTests;
-		};
-		78FC587E140AA9B500366F6B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78C9F2D714029D82000F99CC /* SCNetworkReachabilityKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 78C9F2A414029AFD000F99CC;
-			remoteInfo = SCNetworkReachability;
-		};
-		78FC5880140AA9B500366F6B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78C9F2D714029D82000F99CC /* SCNetworkReachabilityKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 78C9F2B214029AFD000F99CC;
-			remoteInfo = SCNetworkReachabilityTests;
-		};
-		78FC5882140AAA1D00366F6B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78C9F2D714029D82000F99CC /* SCNetworkReachabilityKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 78C9F2A314029AFD000F99CC;
-			remoteInfo = SCNetworkReachability;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -97,8 +74,6 @@
 		78C9F28714029A05000F99CC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		78C9F29014029A05000F99CC /* SCNetworkReachabilityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCNetworkReachabilityTests-Info.plist"; sourceTree = "<group>"; };
 		78C9F29214029A05000F99CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		78C9F29414029A05000F99CC /* SCNetworkReachabilityTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNetworkReachabilityTests.h; sourceTree = "<group>"; };
-		78C9F29614029A05000F99CC /* SCNetworkReachabilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNetworkReachabilityTests.m; sourceTree = "<group>"; };
 		78C9F2D714029D82000F99CC /* SCNetworkReachabilityKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SCNetworkReachabilityKit.xcodeproj; path = SCNetworkReachabilityKit/SCNetworkReachabilityKit.xcodeproj; sourceTree = "<group>"; };
 		78C9F2EC1402A272000F99CC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -108,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78FC5884140AAA2900366F6B /* libSCNetworkReachabilityKit.a in Frameworks */,
+				78A3EE551C7F806B005CFAA0 /* SCNetworkReachabilityKit.framework in Frameworks */,
 				78C9F2ED1402A272000F99CC /* SystemConfiguration.framework in Frameworks */,
 				78C9F26714029A05000F99CC /* UIKit.framework in Frameworks */,
 				78C9F26914029A05000F99CC /* Foundation.framework in Frameworks */,
@@ -193,8 +168,6 @@
 		78C9F28E14029A05000F99CC /* SCNetworkReachabilityTests */ = {
 			isa = PBXGroup;
 			children = (
-				78C9F29414029A05000F99CC /* SCNetworkReachabilityTests.h */,
-				78C9F29614029A05000F99CC /* SCNetworkReachabilityTests.m */,
 				78C9F28F14029A05000F99CC /* Supporting Files */,
 			);
 			path = SCNetworkReachabilityTests;
@@ -213,9 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				78FC587B140AA9B500366F6B /* SCNetworkReachabilityKit.framework */,
-				78FC587D140AA9B500366F6B /* SCNetworkReachabilityKitTests.octest */,
-				78FC587F140AA9B500366F6B /* libSCNetworkReachabilityKit.a */,
-				78FC5881140AA9B500366F6B /* SCNetworkReachabilityTests.octest */,
+				78FC587D140AA9B500366F6B /* SCNetworkReachabilityKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -234,7 +205,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				78FC5883140AAA1D00366F6B /* PBXTargetDependency */,
 			);
 			name = SCNetworkReachability;
 			productName = SCNetworkReachability;
@@ -258,7 +228,7 @@
 			name = SCNetworkReachabilityTests;
 			productName = SCNetworkReachabilityTests;
 			productReference = 78C9F28614029A05000F99CC /* SCNetworkReachabilityTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -266,6 +236,8 @@
 		78C9F25914029A05000F99CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Pioneering Software, United Kingdom";
 			};
 			buildConfigurationList = 78C9F25C14029A05000F99CC /* Build configuration list for PBXProject "SCNetworkReachability" */;
@@ -300,25 +272,11 @@
 			remoteRef = 78FC587A140AA9B500366F6B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		78FC587D140AA9B500366F6B /* SCNetworkReachabilityKitTests.octest */ = {
+		78FC587D140AA9B500366F6B /* SCNetworkReachabilityKitTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = SCNetworkReachabilityKitTests.octest;
+			path = SCNetworkReachabilityKitTests.xctest;
 			remoteRef = 78FC587C140AA9B500366F6B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		78FC587F140AA9B500366F6B /* libSCNetworkReachabilityKit.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSCNetworkReachabilityKit.a;
-			remoteRef = 78FC587E140AA9B500366F6B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		78FC5881140AA9B500366F6B /* SCNetworkReachabilityTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SCNetworkReachabilityTests.octest;
-			remoteRef = 78FC5880140AA9B500366F6B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -342,7 +300,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				78C9F29314029A05000F99CC /* InfoPlist.strings in Resources */,
-				78C9F29514029A05000F99CC /* SCNetworkReachabilityTests.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +336,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78C9F29714029A05000F99CC /* SCNetworkReachabilityTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,11 +346,6 @@
 			isa = PBXTargetDependency;
 			target = 78C9F26114029A05000F99CC /* SCNetworkReachability */;
 			targetProxy = 78C9F28C14029A05000F99CC /* PBXContainerItemProxy */;
-		};
-		78FC5883140AAA1D00366F6B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SCNetworkReachability;
-			targetProxy = 78FC5882140AAA1D00366F6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -438,9 +389,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -449,11 +400,12 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -462,15 +414,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -482,7 +433,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SCNetworkReachability/SCNetworkReachability-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "SCNetworkReachability/SCNetworkReachability-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.pioneeringsoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -493,7 +446,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SCNetworkReachability/SCNetworkReachability-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "SCNetworkReachability/SCNetworkReachability-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.pioneeringsoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -509,7 +464,9 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SCNetworkReachability/SCNetworkReachability-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "SCNetworkReachabilityTests/SCNetworkReachabilityTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.pioneeringsoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -526,7 +483,9 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SCNetworkReachability/SCNetworkReachability-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "SCNetworkReachabilityTests/SCNetworkReachabilityTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.pioneeringsoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
